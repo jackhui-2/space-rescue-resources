@@ -12,12 +12,11 @@ class Globals:
     # - Set the starting number of lives - #
     LIVES = 3
 
-# - Set the Window display name - #
-window_name = 'Space Rescue'
+    # - Set the Window display name - #
+    window_name = 'Space Rescue'
 
     # - Set the order of the rooms - #
-    levels = ["WelcomeScreen", "Maze", "ScrollingShooter", "BreakOut"]
-
+   Levels = ["WelcomeScreen", "GamePlay"]
     # - Set the starting level - #
     start_level = 0
 
